@@ -27,7 +27,7 @@ The code of tf-idf is implemented from scratch to support the following improvem
 | If the model is considered to be accurate when the actual document is in the top 20 results | 84%  |
 | If the model is considered to be accurate when the actual document is in the top 30 results | 85%  |
 
-| Case when only the first sentence of the document is considered | Accuracy |
+| Case when only the first sentence of the document is considered as the query| Accuracy |
 | ------------- | ------------- |
 | If the model is considered to be accurate when the actual document is in the top 1 results | 9%  |
 | If the model is considered to be accurate when the actual document is in the top 5 results | 20%  |
