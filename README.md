@@ -14,7 +14,7 @@ Index creation for tf-idf is done by the python file Index_Creation_code.py
 Please note that location of files containing the corpus can be changed according to convenience
 in the beginning of all the python files.
 Assumptions made in the code:
-    -I have only retrieved the document titles while displaying the ranking. I assume that the
+        -I have only retrieved the document titles while displaying the ranking. I assume that the
 titles are sufficient to identify the document. The top three documents are also stored in the 
 The code of tf-idf is implemented from scratch to support the following improvements:
 1. Spell checking.
