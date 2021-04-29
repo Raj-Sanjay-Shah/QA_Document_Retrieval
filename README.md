@@ -14,10 +14,10 @@
 2. Please note that location of files containing the corpus can be changed according to convenience
 in the beginning of all the python files.
 	- I have only retrieved the document titles while displaying the ranking. I assume that the titles are sufficient to identify the document. The top three documents are also stored in the for use in BERT-SQuAD.
-The code of tf-idf is implemented from scratch to support the following improvements:
+## Supported improvements to tf-idf vector based retrieval:
 1. Spell checking.
 2. Using synoynms for equivalence classes.
-3. Using zone indexing to give weights to the title and the body.
+3. Using zonal indexing to give weights to the title and the body.
 ### Results for retrieval
 | Case |  Accuracy |
 | ------------- | ------------- |
