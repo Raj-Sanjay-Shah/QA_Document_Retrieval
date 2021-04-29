@@ -18,6 +18,22 @@ The code of tf-idf is implemented from scratch to support the following improvem
 1. Spell checking.
 2. Using synoynms for equivalence classes.
 3. Using zone indexing to give weights to the title and the body.
+### Results for retrieval
+| :Case:  | :Accuracy: |
+| ------------- | ------------- |
+| If the model is considered to be accurate when the actual document is in the top 1 results | 67%  |
+| If the model is considered to be accurate when the actual document is in the top 5 results | 80%  |
+| If the model is considered to be accurate when the actual document is in the top 10 results | 84%  |
+| If the model is considered to be accurate when the actual document is in the top 20 results | 84%  |
+| If the model is considered to be accurate when the actual document is in the top 30 results | 85%  |
+
+| :Case when only the first sentence of the document is considered:  | :Accuracy: |
+| ------------- | ------------- |
+| If the model is considered to be accurate when the actual document is in the top 1 results | 9%  |
+| If the model is considered to be accurate when the actual document is in the top 5 results | 20%  |
+| If the model is considered to be accurate when the actual document is in the top 10 results | 26%  |
+| If the model is considered to be accurate when the actual document is in the top 20 results | 30%  |
+| If the model is considered to be accurate when the actual document is in the top 30 results | 36%  |
 
 ## Answering system
 I use the BERT-SQuAD pre-trained model from here [https://github.com/kamalkraj/BERT-SQuAD]. Given a document and a question, this model gives specific answers with confidence levels.
