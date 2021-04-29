@@ -1,4 +1,4 @@
-# QA_Document_Retrieval
+# Create a better system for answering questions
 
 ## Requirements
 1. pip3 install -r requirements.txt
