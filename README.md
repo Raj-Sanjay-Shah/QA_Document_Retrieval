@@ -2,8 +2,8 @@
 
 ## Requirements
 1. pip3 install -r requirements.txt
-2. Download questions from: [https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fqanta.train.2018.04.18.json&sa=D&sntz=1&usg=AFQjCNGf7EtqkO16UWbMx_eeAexvvoIXxw] and save as 'qanta.train.json'. Users can also change the value of the variable 'questions_file' in test_queries.py to the correct path.
-3. Download documents from: [https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fwikipedia%2Fwiki_lookup.json&sa=D&sntz=1&usg=AFQjCNFJ_cCrB0wkRniaZ9yRWg7dvBslMw] and save as 'wiki_lookup.json'. Users can also change the value of the variable 'file_name_documents' in Index_Creation_code.py to the correct path.
+2. Download questions from [here](https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fqanta.train.2018.04.18.json&sa=D&sntz=1&usg=AFQjCNGf7EtqkO16UWbMx_eeAexvvoIXxw) and save as 'qanta.train.json'. Users can also change the value of the variable 'questions_file' in test_queries.py to the correct path.
+3. Download documents from [here](https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fwikipedia%2Fwiki_lookup.json&sa=D&sntz=1&usg=AFQjCNFJ_cCrB0wkRniaZ9yRWg7dvBslMw) and save as 'wiki_lookup.json'. Users can also change the value of the variable 'file_name_documents' in Index_Creation_code.py to the correct path.
 
 ## Steps to run the code:
 1. Install all the requirements in the file requirements.txt by using the above code.
@@ -37,3 +37,5 @@ in the beginning of all the python files.
 
 ## Answering system
 I use the BERT-SQuAD pre-trained model from here [https://github.com/kamalkraj/BERT-SQuAD]. Given a document and a question, this model gives specific answers with confidence levels.
+### Pretrained model download from [here](https://www.dropbox.com/s/8jnulb2l4v7ikir/model.zip)
+unzip and move files to model directory
