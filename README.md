@@ -21,7 +21,7 @@ in the beginning of all the python files.
 ### Results for retrieval
 | Case |  Accuracy |
 | ------------- | ------------- |
-| If the prediction is considered to be correct when the actual document is in the top 1 results | 67%  |
+| If the prediction is considered to be correct when the actual document is in the top 1 results | 64%  |
 | If the prediction is considered to be correct when the actual document is in the top 5 results | 80%  |
 | If the prediction is considered to be correct when the actual document is in the top 10 results | 84%  |
 | If the prediction is considered to be correct when the actual document is in the top 20 results | 84%  |
