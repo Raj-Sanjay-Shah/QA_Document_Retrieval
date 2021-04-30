@@ -7,7 +7,7 @@
 
 ## Steps to run the code:
 1. Install all the requirements in the file requirements.txt by using the above code.
-2. python run.py
+2. python run.py (comment out the command to run the index creation code after running the script for the first time.)
 
 ## Document Retrieval
 1. Index creation for tf-idf is done by the python file Index_Creation_code.py
